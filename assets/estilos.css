@@ -1,0 +1,40 @@
+@import url("assets/icomoon/style.css");
+*{
+padding:0;
+margin:0;
+}
+img.icon-card{
+    font-size: 32px;
+    position: absolute;
+    margin-top: auto;
+    margin-right: auto;
+}
+.column{
+    display: none;
+}
+@media only screen and (max-width: 576px){
+    .carousel{
+        display: none;
+    }
+    .col-lg-4.three-advantage-items{
+        text-align: center;
+    }
+    .text-center.text-black.responsive-icon-navbar-text{
+        display: none;
+    }
+    .mx-4.responsive-navbar-icons{
+        margin-top:2%;
+    }
+    .autoplay{
+        display: none;
+    }
+    .row.column{
+        display: block;
+    }
+    .card-body{
+        text-align:center;
+    }
+}
+
+
+
