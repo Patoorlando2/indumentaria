@@ -306,20 +306,22 @@
 <div class="container-fluid bg-dark" style="box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);">
   <div class="row">
 
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center mt-3">
         <!-- LOGO -->
-        <img src="assets/img/logo.png" alt="LOGO">
+        <img class="rounded-circle mt-3" src="assets/img/logo.png" alt="LOGO" width="64px" height="64px">
+        <br />
+        <br />
         <!-- DESCRIPTION -->
         <p class="text-white justify-content-center">Con un enfoque en la moda al alcance de todos, nuestras tiendas están divididas en diferentes secciones: moda femenina, moda masculina, moda infantil y moda para el hogar, así como accesorios y calzado.</p> 
     </div>
 
-    <div class="col-lg-4 mt-5 text-center">
+    <div class="col-lg-4 mt-5 text-center p-2">
     
       <img src="assets/icons/facebook.png" width="10%" alt="">
       <img src="assets/icons/instagram.png" width="10%" alt="">
       <img class="rounded-circle" src="assets/icons/link.png" width="10%" alt="">
 
-      <p class="text-center text-white mt-5">© <?= date("Y");?> Copyright: <a href="https://patricioagustindev.com" style="text-decoration:none;list-style-type:none;color:white;">https://www.patricioagustindev.com</a></p> 
+      <p class="text-center text-white mt-5">© <?= date("Y");?> Copyright: <a href="https://patricioagustindev.com" style="text-decoration:none;list-style-type:none;color:white;font-weight:600;">www.patricioagustindev.com</a></p> 
     </div>
 
     <div class="col-lg-4 text-center text-white mt-5">
